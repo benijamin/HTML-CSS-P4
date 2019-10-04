@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {    
+    background-image: url("../img/zenicanight.jpg");
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    max-width: 960px;
+    height: 100%;
+    margin: auto;
+}
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    width: 960px;
+    height: 150px;
+}
+
+.logo {
+    height: 100px;
+    padding-top: 20px;
+}
+
+.menu {
+    height: 50px;
+    background-color: #ff192c;
+    border-radius: 25px 25px 0 0;
+    font-size: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #000000;
+}
+
+.content {
+    display: flex;    
+    flex-direction: column;
+    width: 960px;
+    height: 1100px;
+}
+
+.section1 {
+    display: flex;    
+    flex-direction: row;     
+    height: 700px;    
+    background-color: #585858;
+    color: #ffffff;    
+    border-radius: 0 0 25px 25px;
+}
+
+.section2 {
+    display: flex;    
+    flex-direction: row;
+    justify-content:center;
+    height: 300px;
+    color: #ffffff;
+    overflow: hidden;    
+    text-align: center;
+}
+
+.sec1-left {    
+    width: 256px;
+    padding: 20px;
+    display: flex;    
+    flex-direction: column;    
+    height: auto;
+}
+
+.sec1-right {
+    width: 704px;
+    display: flex;    
+    flex-direction: column;    
+    height: auto;
+}
+
+.latest-updates {
+    height: auto;
+    padding-top: 20px;
+}
+
+.contact {
+    height: auto;    
+    padding-top: 20px;
+}
+
+.welcome {
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+    background: rgba(255,255,255, 0.8);
+    color: #585858;
+    padding: 10px 0 0px 10px;
+    margin-top: -43px;
+    margin-bottom: 20px;
+}
+
+.logo-short {
+    height: auto;
+    display: flex;    
+    flex-direction: row;
+    padding: 10px;
+}
+
+.read-more {
+    height: auto;
+    display: flex;    
+    flex-direction: row;
+}
+
+.blog {
+    padding: 20px;   
+    background: rgba(88, 88, 88, 0.3);
+    border-radius: 25px;
+    height: 180px;
+}
+
+.news {
+    padding: 20px;   
+    background: rgba(88, 88, 88, 0.3);
+    border-radius: 25px;
+    height: 180px;
+}
+
+.projects {
+    padding: 20px;   
+    background: rgba(88, 88, 88, 0.3);
+    border-radius: 25px;
+    height: 180px;
+}
+
+.btn-red {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    width: 220px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff192c;
+    color: #ffffff;
+    text-align: left;
+    padding: 3px 0 3px 10px;
+    margin-bottom: 10px;     
+}
+
+.btn-white {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    width: 150px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: #ff192c;
+    padding: 3px 0 3px 0px;
+}
+
+.sec1-left p {
+    padding: 0 0 10px 10px;
+}
+
+.sec1-left h3 {
+    padding: 0 0 10px 10px;
+}
+
+.sec1-right p {
+    padding: 0 0 10px 10px;
+}
+
+.sec1-right h3 {
+    padding: 0 0 10px 10px;
+}
+
+.section2 p {
+    padding: 0 0 20px 10px;
+}
+
+.section2 h3 {
+    padding: 0 0 20px 0px;
+}
